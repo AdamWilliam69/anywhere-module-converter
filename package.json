@@ -1,0 +1,17 @@
+{
+  "name": "anywhere-module-converter",
+  "version": "0.1.0",
+  "description": "Loon/Surge plugin, module, and rule-set converter for Anywhere.",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/core.test.mjs",
+    "convert": "node bin/cli.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
